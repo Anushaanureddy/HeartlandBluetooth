@@ -12,6 +12,7 @@
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml" />
         <source-file src="src/android/HeartlandBluetooth.java" target-dir="src/cordova/plugin/heartlandbluetooth/HeartlandBluetooth" />
+        <source-file src="src/android/libs/classes.jar" target-dir="libs" />
     </platform>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
