@@ -7,3 +7,7 @@ module.exports.add = function(arg0, success, error) {
 module.exports.substract = function(arg0, success, error) {
     exec(success, error, 'HeartlandBluetooth', 'substract', [arg0]);
 }
+
+module.exports.deviceConfig = function(arg0, success, error) {
+    exec(success, error, 'HeartlandBluetooth', 'deviceConfig', [arg0])
+}
