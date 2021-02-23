@@ -1,0 +1,16 @@
+{
+  "name": "heartlandbluetooth",
+  "version": "1.0.0",
+  "description": "This is a Heratland bluetooth plugin for processing transaction using BBPOS C2X BT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Math",
+    "calculator",
+    "Ionic"
+  ],
+  "author": "Anusha Reddy",
+  "license": "ISC"
+}
